@@ -1,0 +1,39 @@
+{
+  "assets": [
+    {
+      "ip": "192.0.2.10",
+      "mac": "02:00:00:00:00:01",
+      "role": "web_server",
+      "criticality": 5,
+      "exposure": 5,
+      "mac_privilege": 3,
+      "lateral_movement": 4,
+      "safe_ips": ["192.0.2.77", "192.0.2.78", "192.0.2.79"],
+      "honeypot_ip": "192.0.2.10",
+      "ssh_user": "kali",
+      "ssh_host": "192.0.2.10",
+      "iface": "enp0s3"
+    },
+    {
+      "ip": "192.0.2.20",
+      "mac": "02:00:00:00:00:02",
+      "role": "db_server",
+      "criticality": 5,
+      "exposure": 4,
+      "mac_privilege": 5,
+      "lateral_movement": 5,
+      "safe_ips": ["192.0.2.87", "192.0.2.88", "192.0.2.89"],
+      "honeypot_ip": "192.0.2.20",
+      "ssh_user": "kali",
+      "ssh_host": "192.0.2.20",
+      "iface": "enp0s3"
+    }
+  ],
+  "honeypot": {
+    "ssh_user": "kali",
+    "ssh_host": "192.0.2.90",
+    "iface": "enp0s3",
+    "mac": "02:00:00:00:00:03"
+  },
+  "risk_threshold": 8.0
+}

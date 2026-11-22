@@ -1,0 +1,14 @@
+{
+  "vulnerabilities": [
+    {
+      "host": "192.0.2.10",
+      "cvss_base_score": 6.5,
+      "exploit_available": false
+    },
+    {
+      "host": "192.0.2.20",
+      "cvss_base_score": 4.3,
+      "exploit_available": false
+    }
+  ]
+}

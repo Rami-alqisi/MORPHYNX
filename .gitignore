@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.log
+.monitor.pid
+defense_state.json
+actions_log.json
+blocked_attackers.json
+wazuh_alerts.json
+raw_alerts.json
+cbrs_history.json
+.env
